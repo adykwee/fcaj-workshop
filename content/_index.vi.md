@@ -7,7 +7,7 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Phan Quoc Anh
+&emsp; **Họ và tên:** Nguyễn Phan Quốc Anh
 
 &emsp; **Số điện thoại:** 0865543317
 
