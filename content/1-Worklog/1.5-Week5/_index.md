@@ -7,14 +7,14 @@ pre: " <b> 1.5. </b> "
 ---
 
 ### Objective for Week 5:
-* Tích hợp Logging, Monitoring và Alerting với CloudWatch
+* Integrate Logging, Monitoring, and Alerting with CloudWatch
 
 ### Tasks for this week:
-| Day | Task | Start Date | Completion Date | Result |
-| --- | --- | --- | --- | --- |
-| 2 | Gửi log ứng dụng từ Lambda sang CloudWatch Logs | 03/07/2026 | 03/07/2026 | Done |
-| 4 | Tạo CloudWatch Metrics đếm số lượng URL được tạo | 05/07/2026 | 05/07/2026 | Done |
-| 6 | Cài đặt CloudWatch Alarm để tự động gửi thông báo qua SNS khi có lỗi | 09/07/2026 | 09/07/2026 | Done |
+| Day | Task | Start Date | Completion Date | Reference Material | Result |
+| --- | --- | --- | --- | --- | --- |
+| Monday | Send application logs from Lambda to CloudWatch Logs | 03/07/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Create CloudWatch Metrics to count the number of created URLs | 05/07/2026 | 05/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Setup CloudWatch Alarm to send notifications via SNS on errors | 09/07/2026 | 09/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

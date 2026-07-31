@@ -10,11 +10,11 @@ pre: " <b> 1.6. </b> "
 * Phát triển chức năng nâng cao và tối ưu API
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Kết quả |
-| --- | --- | --- | --- | --- |
-| 2 | Tối ưu hóa logic sinh ID ngẫu nhiên (chống trùng lặp Key) | 10/07/2026 | 10/07/2026 | Hoàn thành |
-| 4 | Bổ sung Validation cho API đầu vào | 12/07/2026 | 12/07/2026 | Hoàn thành |
-| 6 | Nâng cấp cấu hình IAM Role chuẩn Least Privilege | 16/07/2026 | 16/07/2026 | Hoàn thành |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu | Kết quả |
+| --- | --- | --- | --- | --- | --- |
+| 2 | Tối ưu hóa logic sinh ID ngẫu nhiên (chống trùng lặp Key) | 10/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
+| 4 | Bổ sung Validation cho API đầu vào | 12/07/2026 | 12/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
+| 6 | Nâng cấp cấu hình IAM Role chuẩn Least Privilege | 16/07/2026 | 16/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
 
 ### Kết quả đạt được:
 * Hoàn thành xuất sắc mục tiêu đề ra

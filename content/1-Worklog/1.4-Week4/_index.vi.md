@@ -10,11 +10,11 @@ pre: " <b> 1.4. </b> "
 * Tích hợp cơ sở dữ liệu NoSQL (Amazon DynamoDB)
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Kết quả |
-| --- | --- | --- | --- | --- |
-| 2 | Thêm Resource DynamoDB vào AWS SAM template | 26/06/2026 | 26/06/2026 | Hoàn thành |
-| 4 | Thay thế SQLite bằng boto3 để kết nối DynamoDB | 28/06/2026 | 28/06/2026 | Hoàn thành |
-| 6 | Cấp quyền DynamoDBCrudPolicy cho Lambda | 02/07/2026 | 02/07/2026 | Hoàn thành |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu | Kết quả |
+| --- | --- | --- | --- | --- | --- |
+| 2 | Thêm Resource DynamoDB vào AWS SAM template | 26/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
+| 4 | Thay thế SQLite bằng boto3 để kết nối DynamoDB | 28/06/2026 | 28/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
+| 6 | Cấp quyền DynamoDBCrudPolicy cho Lambda | 02/07/2026 | 02/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
 
 ### Kết quả đạt được:
 * Hoàn thành xuất sắc mục tiêu đề ra

@@ -7,14 +7,14 @@ pre: " <b> 1.6. </b> "
 ---
 
 ### Objective for Week 6:
-* Phát triển chức năng nâng cao và tối ưu API
+* Develop advanced features and optimize API
 
 ### Tasks for this week:
-| Day | Task | Start Date | Completion Date | Result |
-| --- | --- | --- | --- | --- |
-| 2 | Tối ưu hóa logic sinh ID ngẫu nhiên (chống trùng lặp Key) | 10/07/2026 | 10/07/2026 | Done |
-| 4 | Bổ sung Validation cho API đầu vào | 12/07/2026 | 12/07/2026 | Done |
-| 6 | Nâng cấp cấu hình IAM Role chuẩn Least Privilege | 16/07/2026 | 16/07/2026 | Done |
+| Day | Task | Start Date | Completion Date | Reference Material | Result |
+| --- | --- | --- | --- | --- | --- |
+| Monday | Optimize random ID generation logic (prevent Key duplication) | 10/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Add Validation for API input | 12/07/2026 | 12/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Upgrade IAM Role configuration to Least Privilege standard | 16/07/2026 | 16/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

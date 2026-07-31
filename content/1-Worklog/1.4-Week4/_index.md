@@ -7,14 +7,14 @@ pre: " <b> 1.4. </b> "
 ---
 
 ### Objective for Week 4:
-* Tích hợp cơ sở dữ liệu NoSQL (Amazon DynamoDB)
+* Integrate NoSQL Database (Amazon DynamoDB)
 
 ### Tasks for this week:
-| Day | Task | Start Date | Completion Date | Result |
-| --- | --- | --- | --- | --- |
-| 2 | Thêm Resource DynamoDB vào AWS SAM template | 26/06/2026 | 26/06/2026 | Done |
-| 4 | Thay thế SQLite bằng boto3 để kết nối DynamoDB | 28/06/2026 | 28/06/2026 | Done |
-| 6 | Cấp quyền DynamoDBCrudPolicy cho Lambda | 02/07/2026 | 02/07/2026 | Done |
+| Day | Task | Start Date | Completion Date | Reference Material | Result |
+| --- | --- | --- | --- | --- | --- |
+| Monday | Add DynamoDB Resource to AWS SAM template | 26/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Replace SQLite with boto3 to connect to DynamoDB | 28/06/2026 | 28/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Grant DynamoDBCrudPolicy permission to Lambda | 02/07/2026 | 02/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

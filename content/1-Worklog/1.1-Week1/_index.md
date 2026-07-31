@@ -7,14 +7,14 @@ pre: " <b> 1.1. </b> "
 ---
 
 ### Objective for Week 1:
-* Tìm hiểu tổng quan về kiến trúc Web trên Cloud
+* Overview of Web Architecture on Cloud
 
 ### Tasks for this week:
-| Day | Task | Start Date | Completion Date | Result |
-| --- | --- | --- | --- | --- |
-| 2 | Nghiên cứu các mô hình Cloud Web Architecture | 05/06/2026 | 05/06/2026 | Done |
-| 4 | Lựa chọn công nghệ cho URL Shortener (FastAPI, AWS Lambda, DynamoDB) | 07/06/2026 | 07/06/2026 | Done |
-| 6 | Thiết kế sơ đồ luồng hoạt động cơ bản | 11/06/2026 | 11/06/2026 | Done |
+| Day | Task | Start Date | Completion Date | Reference Material | Result |
+| --- | --- | --- | --- | --- | --- |
+| Monday | Research Cloud Web Architecture models | 05/06/2026 | 05/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Select technologies for URL Shortener (FastAPI, AWS Lambda, DynamoDB) | 07/06/2026 | 07/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Design basic workflow architecture | 11/06/2026 | 11/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

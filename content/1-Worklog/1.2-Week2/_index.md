@@ -7,14 +7,14 @@ pre: " <b> 1.2. </b> "
 ---
 
 ### Objective for Week 2:
-* Xây dựng và triển khai ứng dụng Web ở Local
+* Build and deploy web application locally
 
 ### Tasks for this week:
-| Day | Task | Start Date | Completion Date | Result |
-| --- | --- | --- | --- | --- |
-| 2 | Viết code Backend bằng FastAPI | 12/06/2026 | 12/06/2026 | Done |
-| 4 | Sử dụng thư viện Tailwind CSS thiết kế Frontend (HTML/JS) | 14/06/2026 | 14/06/2026 | Done |
-| 6 | Kết nối tạm thời với SQLite để kiểm thử Local | 18/06/2026 | 18/06/2026 | Done |
+| Day | Task | Start Date | Completion Date | Reference Material | Result |
+| --- | --- | --- | --- | --- | --- |
+| Monday | Write Backend code using FastAPI | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Use Tailwind CSS to design Frontend (HTML/JS) | 14/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Temporarily connect to SQLite for local testing | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals
