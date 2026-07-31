@@ -1,19 +1,25 @@
 ---
-title : "Giới thiệu"
-date : 2024-01-01 
+title : "Tổng quan hệ thống"
+date: 2024-01-01
 weight : 1
 chapter : false
 pre : " <b> 5.1. </b> "
 ---
 
-#### Giới thiệu về VPC Endpoint
+#### Kiến trúc Serverless URL Shortener
 
-+ Điểm cuối VPC (endpoint) là thiết bị ảo. Chúng là các thành phần VPC có thể mở rộng theo chiều ngang, dự phòng và có tính sẵn sàng cao. Chúng cho phép giao tiếp giữa tài nguyên điện toán của bạn và dịch vụ AWS mà không gây ra rủi ro về tính sẵn sàng.
-+ Tài nguyên điện toán đang chạy trong VPC có thể truy cập Amazon S3 bằng cách sử dụng điểm cuối Gateway. Interface Endpoint  PrivateLink có thể được sử dụng bởi tài nguyên chạy trong VPC hoặc tại TTDL.
+![Sơ đồ kiến trúc AWS Serverless URL Shortener](/images/5-Workshop/5.1-Overview/architecture.png)
 
-#### Tổng quan về workshop
-Trong workshop này, bạn sẽ sử dụng hai VPC.
-+ **"VPC Cloud"** dành cho các tài nguyên cloud như Gateway endpoint và EC2 instance để kiểm tra.
-+ **"VPC On-Prem"** mô phỏng môi trường truyền thống như nhà máy hoặc trung tâm dữ liệu của công ty. Một EC2 Instance chạy phần mềm StrongSwan VPN đã được triển khai trong "VPC On-prem" và được cấu hình tự động để thiết lập đường hầm VPN Site-to-Site với AWS Transit Gateway. VPN này mô phỏng kết nối từ một vị trí tại TTDL (on-prem) với AWS cloud. Để giảm thiểu chi phí, chỉ một phiên bản VPN được cung cấp để hỗ trợ workshop này. Khi lập kế hoạch kết nối VPN cho production workloads của bạn, AWS khuyên bạn nên sử dụng nhiều thiết bị VPN để có tính sẵn sàng cao.
+Hệ thống được thiết kế theo kiến trúc Serverless hiện đại, sử dụng các dịch vụ quản lý hoàn toàn của AWS:
 
-![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+1. **Người dùng cuối (End Users):** Truy cập vào giao diện web thông qua một tên miền ngắn (Custom Domain).
+2. **Amazon Route 53:** Hệ thống phân giải tên miền (DNS) trỏ tên miền tùy chỉnh về Amazon CloudFront (cho Frontend) và API Gateway (cho Backend).
+3. **Amazon CloudFront:** Mạng phân phối nội dung (CDN) lưu bộ nhớ đệm toàn cầu, giúp tải giao diện siêu tốc và cung cấp chứng chỉ HTTPS (thông qua AWS Certificate Manager).
+4. **Amazon S3:** Nơi lưu trữ an toàn các tệp tin giao diện tĩnh tĩnh (HTML, CSS, JS).
+5. **Amazon API Gateway:** Đóng vai trò là HTTP API, tiếp nhận các yêu cầu tạo link hoặc chuyển hướng (redirect) từ người dùng và chuyển đến AWS Lambda.
+6. **AWS Lambda:** Dịch vụ điện toán Serverless, chạy mã nguồn Python (FastAPI) để xử lý logic rút gọn link và tạo mã hash độc nhất.
+7. **Amazon DynamoDB:** Cơ sở dữ liệu NoSQL với độ trễ tính bằng mili-giây, lưu trữ cặp giá trị `{short_id: long_url}`.
+
+---
+
+Sự kết hợp này giúp ứng dụng có khả năng chịu tải hàng ngàn truy cập đồng thời mà không cần can thiệp vận hành (zero ops), đồng thời tiết kiệm chi phí tối đa.
