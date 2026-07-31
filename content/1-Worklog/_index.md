@@ -6,34 +6,19 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+**Tuần 1:** [Tìm hiểu tổng quan về kiến trúc Web trên Cloud](1.1-week1/)
 
-**On this page**, you will need to introduce your worklog. **How** did you complete it? How many weeks did you take to complete the program? **What** did you do in those weeks?
+**Tuần 2:** [Xây dựng và triển khai ứng dụng Web ở Local](1.2-week2/)
 
-Typically, and as a standard, a worklog is carried out over about 3 months (throughout the internship period) with weekly contents as follows:
+**Tuần 3:** [Triển khai lên AWS Serverless (Lambda, API Gateway, S3)](1.3-week3/)
 
-**Week 1:** [Getting familiar with AWS and basic AWS services](1.1-week1/)
+**Tuần 4:** [Tích hợp cơ sở dữ liệu NoSQL (Amazon DynamoDB)](1.4-week4/)
 
-**Week 2:** [Doing task A...](1.2-week2/)
+**Tuần 5:** [Tích hợp Logging, Monitoring và Alerting với CloudWatch](1.5-week5/)
 
-**Week 3:** [Doing task B...](1.3-week3/)
+**Tuần 6:** [Phát triển chức năng nâng cao và tối ưu API](1.6-week6/)
 
-**Week 4:** [Doing task C...](1.4-week4/)
+**Tuần 7:** [Kiểm thử hệ thống và tối ưu trải nghiệm](1.7-week7/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Tuần 8:** [Hoàn thiện hệ thống, tài liệu và Demo](1.8-week8/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
-
-**Week 7:** [Doing task G...](1.7-week7/)
-
-**Week 8:** [Doing task H...](1.8-week8/)
-
-**Week 9:** [Doing task I...](1.9-week9/)
-
-**Week 10:** [Doing task L...](1.10-week10/)
-
-**Week 11:** [Doing task M...](1.11-week11/)
-
-**Week 12:** [Doing task N...](1.12-week12/)
