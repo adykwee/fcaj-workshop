@@ -12,8 +12,8 @@ pre: " <b> 1.2. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu | Kết quả |
 | --- | --- | --- | --- | --- | --- |
-| 2 | Viết code Backend bằng FastAPI | 12/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
-| 4 | Sử dụng thư viện Tailwind CSS thiết kế Frontend (HTML/JS) | 14/06/2026 | 14/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
+| 2 | Viết code Backend bằng FastAPI | 12/06/2026 | 13/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
+| 4 | Sử dụng thư viện Tailwind CSS thiết kế Frontend (HTML/JS) | 14/06/2026 | 15/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
 | 6 | Kết nối tạm thời với SQLite để kiểm thử Local | 18/06/2026 | 18/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Hoàn thành |
 
 ### Kết quả đạt được:

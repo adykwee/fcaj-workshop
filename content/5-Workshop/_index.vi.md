@@ -19,9 +19,9 @@ Dự án được triển khai 100% trên kiến trúc **Serverless** của AWS,
 
 #### Nội dung
 
-1. [Tổng quan hệ thống](5.1-Overview/)
+1. [Tổng quan hệ thống](5.1-Workshop-Overview/)
 2. [Chuẩn bị môi trường](5.2-Preparation/)
 3. [Xây dựng Database & Backend](5.3-Database-and-Backend/)
-4. [Triển khai Frontend](5.4-Frontend-Deployment/)
+4. [Triển khai Frontend](5.4-Frontend-Development/)
 5. [Cấu hình Tên miền tùy chỉnh (Custom Domain)](5.5-Custom-Domain/)
 6. [Dọn dẹp tài nguyên](5.6-Cleanup/)

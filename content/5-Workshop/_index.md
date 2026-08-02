@@ -22,6 +22,6 @@ The application is divided into two separate parts:
 1. [System Overview](5.1-Workshop-Overview/)
 2. [Environment Preparation](5.2-Preparation/)
 3. [Database & Backend Deployment](5.3-Database-and-Backend/)
-4. [Frontend Deployment](5.4-Frontend-Deployment/)
+4. [Frontend Deployment](5.4-Frontend-Development/)
 5. [Custom Domain Configuration](5.5-Custom-Domain/)
 6. [Resource Cleanup](5.6-Cleanup/)
