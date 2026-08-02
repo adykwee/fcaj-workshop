@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sharing and Feedback"
 date: 2024-01-01
 weight: 7
@@ -32,13 +32,19 @@ The company provides an internship allowance and offers flexible working hours w
 ---
 
 ### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+- **What did you find most satisfying during your internship?**  
+  The opportunity for hands-on experience with actual AWS Cloud services (such as Lambda, API Gateway, DynamoDB, S3) and the dedicated guidance from the First Cloud AI Journey community. This process helped me bridge academic theory into real-world production-ready skills.
+- **What do you think the company should improve for future interns?**  
+  Provide environment setup prerequisites and onboarding materials slightly earlier before project kickoff, and host more regular technical sharing sessions (Tech Talks).
+- **If recommending to a friend, would you suggest they intern here? Why or why not?**  
+  Definitely yes. It is an exceptional learning environment for anyone aspiring to build expertise in Cloud and AI, offering an open culture, and supportive members, helping interns  accelerate professional growth.
 
 ---
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+- **Do you have any suggestions to improve the internship experience?**  
+  Organize more networking and bonding sessions between interns and industry professionals.
+- **Would you like to continue this program in the future?**  
+  I would love to continue participating in upcoming programs and contributing to the First Cloud AI Journey community.
+- **Any other comments (free sharing):**  
+  A heartfelt thank you to the organizers, mentors, and the admin team for establishing such an enriching and inspiring program for students!

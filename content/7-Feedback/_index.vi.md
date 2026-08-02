@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Chia sẻ, đóng góp ý kiến"
 date: 2024-01-01
 weight: 7
@@ -30,12 +30,17 @@ Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về t
 
 
 ### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
-
+- **Điều bạn hài lòng nhất trong thời gian thực tập?**  
+  Cơ hội được thực hành trực tiếp với các dịch vụ Cloud AWS thực tế (như Lambda, API Gateway, DynamoDB, S3) và nhận được sự hướng dẫn tận tình từ cộng đồng First Cloud AI Journey. Quá trình này giúp mình chuyển hóa kiến thức lý thuyết ở trường thành kỹ năng xây dựng sản phẩm thực tế.
+- **Điều bạn nghĩ công ty cần cải thiện cho các thực tập sinh sau?**  
+  Có thể cung cấp thêm các tài liệu hướng dẫn chuẩn bị môi trường (Prerequisites) sớm hơn trước khi bắt đầu dự án và tổ chức thêm các buổi chia sẻ kỹ thuật chuyên sâu (Tech Talks) định kỳ hàng tuần.
+- **Nếu giới thiệu cho bạn bè, bạn có khuyên họ thực tập ở đây không? Vì sao?**  
+  Chắc chắn là có. Đây là một môi trường tuyệt vời cho những ai muốn phát triển kỹ năng về Điện toán đám mây (Cloud) và AI, có văn hóa cởi mở, và các bạn support nhiệt tình giúp các thực tập sinh học tập và phát triển nhanh chóng.
 
 ### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+- **Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?**  
+  Tăng cường thêm các hoạt động giao lưu kết nối (networking) giữa các thực tập sinh với các kỹ sư và chuyên gia trong ngành.
+- **Bạn có muốn tiếp tục chương trình này trong tương lai?**  
+  Rất mong muốn được tiếp tục đồng hành và tham gia các dự án tiếp theo hoặc đóng góp cho cộng đồng First Cloud AI Journey.
+- **Góp ý khác (tự do chia sẻ):**  
+  Xin chân thành cảm ơn ban tổ chức, các anh chị mentor và team admin đã tạo ra một sân chơi học tập và thực hành bổ ích, truyền cảm hứng mạnh mẽ cho hành trình sự nghiệp của mình!
