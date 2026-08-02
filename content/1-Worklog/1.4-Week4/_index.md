@@ -12,9 +12,9 @@ pre: " <b> 1.4. </b> "
 ### Tasks for this week:
 | Day | Task | Start Date | Completion Date | Reference Material | Result |
 | --- | --- | --- | --- | --- | --- |
-| Monday | Add DynamoDB Resource to AWS SAM template | 26/06/2026 | 27/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Wednesday | Replace SQLite with boto3 to connect to DynamoDB | 28/06/2026 | 29/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Friday | Grant DynamoDBCrudPolicy permission to Lambda | 02/07/2026 | 03/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Monday | Add DynamoDB Resource to AWS SAM template | 29/06/2026 | 30/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Replace SQLite with boto3 to connect to DynamoDB | 01/07/2026 | 02/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Grant DynamoDBCrudPolicy permission to Lambda | 03/07/2026 | 04/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

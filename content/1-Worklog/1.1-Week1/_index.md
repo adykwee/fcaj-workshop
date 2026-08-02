@@ -12,9 +12,9 @@ pre: " <b> 1.1. </b> "
 ### Tasks for this week:
 | Day | Task | Start Date | Completion Date | Reference Material | Result |
 | --- | --- | --- | --- | --- | --- |
-| Monday | Research Cloud Web Architecture models | 05/06/2026 | 06/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Wednesday | Select technologies for URL Shortener (FastAPI, AWS Lambda, DynamoDB) | 07/06/2026 | 08/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Friday | Design basic workflow architecture | 11/06/2026 | 12/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Monday | Research Cloud Web Architecture models | 08/06/2026 | 09/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Select technologies for URL Shortener (FastAPI, AWS Lambda, DynamoDB) | 10/06/2026 | 11/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Design basic workflow architecture | 12/06/2026 | 13/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

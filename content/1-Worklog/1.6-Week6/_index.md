@@ -12,9 +12,9 @@ pre: " <b> 1.6. </b> "
 ### Tasks for this week:
 | Day | Task | Start Date | Completion Date | Reference Material | Result |
 | --- | --- | --- | --- | --- | --- |
-| Monday | Optimize random ID generation logic (prevent Key duplication) | 10/07/2026 | 11/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Wednesday | Add Validation for API input | 12/07/2026 | 13/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Friday | Upgrade IAM Role configuration to Least Privilege standard | 16/07/2026 | 17/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Monday | Optimize random ID generation logic (prevent Key duplication) | 13/07/2026 | 14/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Add Validation for API input | 15/07/2026 | 16/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Upgrade IAM Role configuration to Least Privilege standard | 17/07/2026 | 18/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

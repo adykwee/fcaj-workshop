@@ -12,9 +12,9 @@ pre: " <b> 1.7. </b> "
 ### Tasks for this week:
 | Day | Task | Start Date | Completion Date | Reference Material | Result |
 | --- | --- | --- | --- | --- | --- |
-| Monday | Perform API Gateway Load Test (using Postman/JMeter) | 17/07/2026 | 18/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Wednesday | Optimize Frontend page load speed (Lazy Load, Minify CSS/JS) | 19/07/2026 | 20/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Friday | Catch errors and display friendly messages on the UI | 23/07/2026 | 24/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Monday | Perform API Gateway Load Test (using Postman/JMeter) | 20/07/2026 | 21/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Optimize Frontend page load speed (Lazy Load, Minify CSS/JS) | 22/07/2026 | 23/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Catch errors and display friendly messages on the UI | 24/07/2026 | 25/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

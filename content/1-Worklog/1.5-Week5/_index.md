@@ -12,9 +12,9 @@ pre: " <b> 1.5. </b> "
 ### Tasks for this week:
 | Day | Task | Start Date | Completion Date | Reference Material | Result |
 | --- | --- | --- | --- | --- | --- |
-| Monday | Send application logs from Lambda to CloudWatch Logs | 03/07/2026 | 04/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Wednesday | Create CloudWatch Metrics to count the number of created URLs | 05/07/2026 | 06/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Friday | Setup CloudWatch Alarm to send notifications via SNS on errors | 09/07/2026 | 10/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Monday | Send application logs from Lambda to CloudWatch Logs | 06/07/2026 | 07/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Create CloudWatch Metrics to count the number of created URLs | 08/07/2026 | 09/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Setup CloudWatch Alarm to send notifications via SNS on errors | 10/07/2026 | 11/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

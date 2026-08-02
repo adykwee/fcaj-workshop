@@ -12,9 +12,9 @@ pre: " <b> 1.3. </b> "
 ### Tasks for this week:
 | Day | Task | Start Date | Completion Date | Reference Material | Result |
 | --- | --- | --- | --- | --- | --- |
-| Monday | Install Mangum library and configure CORS | 19/06/2026 | 20/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Wednesday | Create template.yaml (AWS SAM) and deploy Backend to Lambda | 21/06/2026 | 22/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Friday | Set up S3 Static Website Hosting and upload Frontend | 25/06/2026 | 26/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Monday | Install Mangum library and configure CORS | 22/06/2026 | 23/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Create template.yaml (AWS SAM) and deploy Backend to Lambda | 24/06/2026 | 25/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Set up S3 Static Website Hosting and upload Frontend | 26/06/2026 | 27/06/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals

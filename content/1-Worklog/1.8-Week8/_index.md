@@ -12,9 +12,9 @@ pre: " <b> 1.8. </b> "
 ### Tasks for this week:
 | Day | Task | Start Date | Completion Date | Reference Material | Result |
 | --- | --- | --- | --- | --- | --- |
-| Monday | Review entire source code and clean up junk resources | 24/07/2026 | 25/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Wednesday | Write final internship report | 26/07/2026 | 27/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
-| Friday | Prepare presentation and record feature demo video | 31/07/2026 | 31/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Monday | Review entire source code and clean up junk resources | 27/07/2026 | 28/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Wednesday | Write final internship report | 29/07/2026 | 30/07/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
+| Friday | Prepare presentation and record feature demo video | 31/07/2026 | 01/08/2026 | <https://cloudjourney.awsstudygroup.com/> | Done |
 
 ### Achievements:
 * Successfully completed the goals
