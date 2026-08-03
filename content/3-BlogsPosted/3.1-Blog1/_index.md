@@ -5,27 +5,23 @@ weight: 1
 chapter: false
 pre: " <b> 3.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# Deploying FastAPI (Python) on AWS Lambda using the Mangum library
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+During the development of the URL Shortener project, the team decided to adopt a Serverless architecture for the Backend component instead of deploying on traditional EC2 virtual servers.
 
-Key points to know:
+The selected technology stack includes **AWS Lambda**, **API Gateway** combined with the **FastAPI (Python)** framework. To ensure the FastAPI application is compatible and runs reliably on the AWS Lambda environment, the project utilizes the **Mangum** library as an adapter.
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+**Advantages of this solution:**
+- **Zero-ops:** Completely eliminates the burden of operating system administration and server scaling. AWS Lambda automatically scales based on actual traffic volume.
+- **Cost optimization:** During the development phase and for small to medium-scale applications, operational costs are significantly minimized, often covered by the AWS Free Tier. Costs are only incurred based on the actual code execution time.
+- **Development efficiency:** Programming with FastAPI is straightforward and modern, automatically generating API documentation according to the Swagger/OpenAPI standard.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+The Serverless approach is increasingly proving its effectiveness in building applications on the AWS cloud.
 
-...Image...
-
-...Link...
-
-...Guide...
+---
+**References:**
+- [AWS Lambda](https://aws.amazon.com/lambda/)
+- [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Mangum](https://mangum.io/)

@@ -5,27 +5,21 @@ weight: 1
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# High-performance and cost-optimized static Web hosting solution with Amazon S3 and CloudFront
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+For the Frontend component of the URL Shortener application, the system utilizes static technologies including HTML, Javascript, and TailwindCSS. Deploying these static files on a traditional EC2 server would fail to maximize performance and result in resource waste.
 
-Key points to know:
+Therefore, the implemented architecture is a combination of **Amazon S3** and **Amazon CloudFront**:
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+1. **Amazon S3 (Storage):** The S3 bucket is configured in Static Website Hosting mode, serving as the storage space for the entire user interface source code of the application.
+2. **Amazon CloudFront (Content Delivery Network - CDN):** CloudFront handles the distribution and caching of content at Edge Locations globally. This significantly reduces latency, ensuring the website loads rapidly regardless of the user's geographical location.
+3. **Security and Custom Domain:** CloudFront facilitates the establishment of encrypted HTTPS connections via a free SSL/TLS security certificate issued by AWS Certificate Manager (ACM), while integrating with Amazon Route 53 to route traffic to a custom domain.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+**Result:** This solution provides a frontend platform capable of handling high concurrent traffic volumes with excellent performance, while monthly maintenance costs are optimized to the lowest possible level.
 
-...Image...
-
-...Link...
-
-...Guide...
+---
+**References:**
+- [Host a static website using Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
+- [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
+- [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)

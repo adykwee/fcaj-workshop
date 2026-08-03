@@ -5,27 +5,20 @@ weight: 1
 chapter: false
 pre: " <b> 3.2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+# Reasons for choosing Amazon DynamoDB for a URL Shortener application
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+When designing a URL Shortener system, one of the most rigorous technical requirements is data retrieval speed. The system must ensure the rapid lookup of the original link from the shortened code and execute the redirection in minimal time.
 
-Key points to know:
+The project selected **Amazon DynamoDB** as the primary database based on the following technical factors:
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+- **Suitable Key-Value architecture:** A URL Shortener application fundamentally performs a mapping operation from a `short_id` to a `long_url`. DynamoDB is a NoSQL database specifically optimized for such Key-Value queries.
+- **Single-digit millisecond latency:** Read and write speeds are consistently maintained at under 10 milliseconds, regardless of how much the system scales.
+- **Serverless Database:** Completely minimizes the effort of installing and maintaining database cluster configurations (compared to solutions like Amazon RDS). Resource scaling is performed entirely automatically.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+The integration between AWS Lambda and DynamoDB using the `boto3` library was straightforward. However, an important consideration during deployment is strictly adhering to the principle of least privilege when configuring the IAM Role, ensuring AWS Lambda only has permission to operate on the designated data table.
 
-...Image...
-
-...Link...
-
-...Guide...
+---
+**References:**
+- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/)
+- [Boto3 DynamoDB Documentation](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html)

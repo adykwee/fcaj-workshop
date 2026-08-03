@@ -5,27 +5,21 @@ weight: 1
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
+# Giải pháp lưu trữ Web tĩnh hiệu năng cao và tối ưu chi phí với Amazon S3 và CloudFront
 
-Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Đối với thành phần giao diện (Frontend) của ứng dụng URL Shortener, hệ thống sử dụng các công nghệ tĩnh bao gồm HTML, Javascript và TailwindCSS. Việc triển khai các tệp tĩnh này trên một máy chủ EC2 truyền thống sẽ không tận dụng được tối đa hiệu suất và gây lãng phí tài nguyên.
 
-Các điểm chính cần nắm:
+Do đó, kiến trúc được áp dụng là sự kết hợp giữa **Amazon S3** và **Amazon CloudFront**:
 
-* Session policy là một IAM policy inline được chỉ định khi tạo hoặc cập nhật Pod Identity association.
-* Quyền hiệu quả = intersection (giao) giữa permissions của IAM role và session policy → session policy chỉ có thể thu hẹp, không thể mở rộng quyền.
-* Giúp tránh tình trạng over-permissioning khi reuse chung một IAM role cho nhiều workloads có nhu cầu khác nhau.
-* Hỗ trợ cả same-account và cross-account (qua IAM role chaining).
-* Giảm đáng kể số lượng IAM roles cần quản lý, tránh chạm giới hạn quota IAM trong cluster lớn.
-* Cấu hình dễ dàng qua AWS Management Console, AWS CLI hoặc AWS SDK khi tạo association giữa Kubernetes ServiceAccount và IAM role.
+1. **Amazon S3 (Lưu trữ):** S3 bucket được cấu hình ở chế độ Static Website Hosting, đóng vai trò là không gian lưu trữ cho toàn bộ mã nguồn giao diện của ứng dụng.
+2. **Amazon CloudFront (Mạng phân phối nội dung - CDN):** CloudFront đảm nhiệm việc phân phối và lưu trữ bộ nhớ đệm (cache) nội dung tại các Edge Locations trên toàn cầu. Điều này giúp giảm thiểu độ trễ đáng kể, đảm bảo trang web được tải nhanh chóng bất kể vị trí địa lý của người dùng.
+3. **Bảo mật và Tên miền tùy chỉnh:** CloudFront hỗ trợ thiết lập kết nối mã hóa HTTPS thông qua chứng chỉ bảo mật SSL/TLS được cấp phát miễn phí từ AWS Certificate Manager (ACM), đồng thời kết hợp với Amazon Route 53 để định tuyến tới tên miền tùy chỉnh.
 
-Tính năng này đặc biệt hữu ích khi bạn có nhiều ứng dụng chạy trên cùng một IAM role nhưng cần giới hạn quyền khác nhau (ví dụ: một pod chỉ đọc S3 bucket cụ thể, pod khác chỉ gọi một số API nhất định).
+**Kết quả:** Giải pháp này mang lại một nền tảng frontend có khả năng đáp ứng đồng thời khối lượng truy cập lớn với hiệu năng cao, trong khi chi phí duy trì hàng tháng được tối ưu hóa ở mức thấp nhất.
 
-...Hình ảnh...
-
-...Link...
-
-...Hướng dẫn...
+---
+**Tài liệu tham khảo:**
+- [Host a static website using Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
+- [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
+- [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
