@@ -92,6 +92,6 @@ Attending **"AgentForge – Deepdive Day 1"** was an incredibly practical and in
 - Day 1 builds the critical foundation — a solid understanding of the fundamentals makes Day 2 and Day 3 significantly easier
 
 #### Some event photos
-![Overall image of AgentForge - Deepdive Day 1](/images/4-EventParticipated/anh3.jpg)
+![Overall image of AgentForge - Deepdive Day 1](../../images/4-EventParticipated/anh3.jpg)
 
 > Overall, "AgentForge – Deepdive Day 1" not only equipped me with solid technical knowledge of Amazon Bedrock AgentCore but also gave me a comprehensive view of how to build a complete, secure, and production-ready AI agent system.

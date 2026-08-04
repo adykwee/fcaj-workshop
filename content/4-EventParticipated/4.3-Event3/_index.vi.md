@@ -92,6 +92,6 @@ Tham gia **"AgentForge – Deepdive Day 1"** là một trải nghiệm học t�
 - Day 1 đặt nền móng quan trọng – hiểu rõ foundations sẽ giúp việc học Day 2 và Day 3 trở nên dễ dàng hơn nhiều
 
 #### Một số hình ảnh khi tham gia sự kiện
-![Toàn cảnh sự kiện AgentForge - Day 1](/images/4-EventParticipated/anh3.jpg)
+![Toàn cảnh sự kiện AgentForge - Day 1](../../../images/4-EventParticipated/anh3.jpg)
 
 > Tổng thể, "AgentForge – Deepdive Day 1" không chỉ trang bị cho tôi kiến thức kỹ thuật vững chắc về Amazon Bedrock AgentCore mà còn giúp tôi có cái nhìn toàn diện về cách xây dựng một hệ thống AI agent hoàn chỉnh, bảo mật và sẵn sàng cho môi trường thực tế.
